@@ -1,0 +1,4 @@
+C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\Infraestructure\obj\Debug\netstandard2.0\Infraestructure.csproj.AssemblyReference.cache
+C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\Infraestructure\obj\Debug\netstandard2.0\Infraestructure.AssemblyInfoInputs.cache
+C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\Infraestructure\obj\Debug\netstandard2.0\Infraestructure.AssemblyInfo.cs
+C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\Infraestructure\obj\Debug\netstandard2.0\Infraestructure.csproj.CoreCompileInputs.cache

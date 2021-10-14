@@ -13,11 +13,7 @@ namespace Domain.Entities
         public int Existencia { get; set; }
         public decimal Precio { get; set; }
         public DateTime FechaVencimiento { get; set; }
-        public DateTime FechaDeRegistro { get; set; }
         public UnidadMedida UnidadMedida { get; set; }
-        public RegistroInventario RegistroInventario { get; set; }
-        public NaturalezaCuentas Naturaleza { get; set; }
-
 
         public class ProductoOrderByPrecio : IComparer<Producto>
         {
@@ -37,5 +33,4 @@ namespace Domain.Entities
             }
         }
     }
-    
 }

@@ -6,15 +6,15 @@ using System.Text;
 
 namespace Domain.Interfaces
 {
-    public interface IProductoModel : IProducto<Producto>
+    public interface IProductoModel: IModel<Producto>
     {
-        Producto GetProductoById(int Id);
-        Producto[] GetProductosByUnidadMedida(UnidadMedida um);
-        Producto[] GetProductosByFechaVencimiento(DateTime dt);
-        Producto[] GetProductosByRangoPrecio(decimal start, decimal end);
-        string GetProductosAsJson();
-        Producto[] GetProductosOrderByPrecio();
-        int GetLastProductoId();
-        int GetIndexById(int Id);
+        Producto GetProductoById(int id);
+        Producto[] GetProductosByUnidadMedida(UnidadMedida unidadMedida);
+        Producto[] GetProductosByFechaVencimiento(DateTime dateTime);
+
+
+
+
+
     }
 }
