@@ -557,23 +557,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JADPA_06\\.nuget\\packages\\": {},
+    "C:\\Users\\JADPA_16\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Desktop\\Productos1M1--master\\AppCore\\AppCore.csproj",
+      "projectUniqueName": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\AppCore\\AppCore.csproj",
       "projectName": "AppCore",
-      "projectPath": "E:\\Desktop\\Productos1M1--master\\AppCore\\AppCore.csproj",
-      "packagesPath": "C:\\Users\\JADPA_06\\.nuget\\packages\\",
-      "outputPath": "E:\\Desktop\\Productos1M1--master\\AppCore\\obj\\",
+      "projectPath": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\AppCore\\AppCore.csproj",
+      "packagesPath": "C:\\Users\\JADPA_16\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\AppCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\JADPA_06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JADPA_16\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -586,8 +586,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\Desktop\\Productos1M1--master\\Domain\\Domain.csproj": {
-              "projectPath": "E:\\Desktop\\Productos1M1--master\\Domain\\Domain.csproj"
+            "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Domain\\Domain.csproj"
             }
           }
         }
