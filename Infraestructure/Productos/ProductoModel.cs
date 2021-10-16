@@ -8,12 +8,12 @@ using System.Text;
 
 namespace Infraestructure.Productos
 {
-    public class ProductoModel: IProductoModel
+    public class ProductoModel : IProductoModel
     {
         private Producto[] productos;
 
         #region CRUD
-        public void Add(Producto p)
+        public void Create(Producto p)
         {
             Add(p, ref productos);
         }
@@ -59,7 +59,7 @@ namespace Infraestructure.Productos
 
             return productos.Length == tmp.Length;
         }
-        public Producto[] GetAll()
+        public Producto[] FindAll()
         {
             return productos;
         }

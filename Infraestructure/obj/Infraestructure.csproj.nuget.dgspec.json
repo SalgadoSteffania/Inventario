@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Desktop\\Productos1M1--master\\Infraestructure\\Infraestructure.csproj": {}
+    "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Infraestructure\\Infraestructure.csproj": {}
   },
   "projects": {
-    "E:\\Desktop\\Productos1M1--master\\Domain\\Domain.csproj": {
+    "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Desktop\\Productos1M1--master\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\Desktop\\Productos1M1--master\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\JADPA_06\\.nuget\\packages\\",
-        "outputPath": "E:\\Desktop\\Productos1M1--master\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\JADPA_16\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\JADPA_06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JADPA_16\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,20 +60,20 @@
         }
       }
     },
-    "E:\\Desktop\\Productos1M1--master\\Infraestructure\\Infraestructure.csproj": {
+    "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Infraestructure\\Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Desktop\\Productos1M1--master\\Infraestructure\\Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Infraestructure\\Infraestructure.csproj",
         "projectName": "Infraestructure",
-        "projectPath": "E:\\Desktop\\Productos1M1--master\\Infraestructure\\Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\JADPA_06\\.nuget\\packages\\",
-        "outputPath": "E:\\Desktop\\Productos1M1--master\\Infraestructure\\obj\\",
+        "projectPath": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Infraestructure\\Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\JADPA_16\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\JADPA_06\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JADPA_16\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,8 +86,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\Desktop\\Productos1M1--master\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\Desktop\\Productos1M1--master\\Domain\\Domain.csproj"
+              "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\JADPA_16\\Desktop\\ProductosApp-1m1\\Domain\\Domain.csproj"
               }
             }
           }
