@@ -1,7 +1,7 @@
-C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\ProductosApp\obj\Debug\ProductosApp.csproj.AssemblyReference.cache
-C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\ProductosApp\obj\Debug\ProductosApp.Formularios.FrmGestionEmpleados.resources
-C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\ProductosApp\obj\Debug\ProductosApp.Formularios.FrmProducto.resources
-C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\ProductosApp\obj\Debug\ProductosApp.Formularios.FrmProductos.resources
-C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\ProductosApp\obj\Debug\ProductosApp.Properties.Resources.resources
-C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\ProductosApp\obj\Debug\ProductosApp.csproj.GenerateResource.cache
-C:\Users\STEFFANIA SALGADO\Desktop\ProductosApp-1m3\ProductosApp\obj\Debug\ProductosApp.csproj.CoreCompileInputs.cache
+C:\Users\STEFFANIA SALGADO\Downloads\ProductosApp-1m1\ProductosApp-1m1\ProductosApp\obj\Debug\ProductosApp.csproj.AssemblyReference.cache
+C:\Users\STEFFANIA SALGADO\Downloads\ProductosApp-1m1\ProductosApp-1m1\ProductosApp\obj\Debug\ProductosApp.Formularios.FrmGestionEmpleados.resources
+C:\Users\STEFFANIA SALGADO\Downloads\ProductosApp-1m1\ProductosApp-1m1\ProductosApp\obj\Debug\ProductosApp.Formularios.FrmProducto.resources
+C:\Users\STEFFANIA SALGADO\Downloads\ProductosApp-1m1\ProductosApp-1m1\ProductosApp\obj\Debug\ProductosApp.Formularios.FrmProductos.resources
+C:\Users\STEFFANIA SALGADO\Downloads\ProductosApp-1m1\ProductosApp-1m1\ProductosApp\obj\Debug\ProductosApp.Properties.Resources.resources
+C:\Users\STEFFANIA SALGADO\Downloads\ProductosApp-1m1\ProductosApp-1m1\ProductosApp\obj\Debug\ProductosApp.csproj.GenerateResource.cache
+C:\Users\STEFFANIA SALGADO\Downloads\ProductosApp-1m1\ProductosApp-1m1\ProductosApp\obj\Debug\ProductosApp.csproj.CoreCompileInputs.cache

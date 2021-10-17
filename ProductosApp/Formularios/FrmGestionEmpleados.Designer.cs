@@ -35,10 +35,9 @@
             // 
             // btnDoc
             // 
-            this.btnDoc.Location = new System.Drawing.Point(22, 10);
-            this.btnDoc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDoc.Location = new System.Drawing.Point(30, 12);
             this.btnDoc.Name = "btnDoc";
-            this.btnDoc.Size = new System.Drawing.Size(144, 19);
+            this.btnDoc.Size = new System.Drawing.Size(192, 23);
             this.btnDoc.TabIndex = 0;
             this.btnDoc.Text = "Crear Docente";
             this.btnDoc.UseVisualStyleBackColor = true;
@@ -46,10 +45,9 @@
             // 
             // btnAdmin
             // 
-            this.btnAdmin.Location = new System.Drawing.Point(188, 10);
-            this.btnAdmin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAdmin.Location = new System.Drawing.Point(250, 12);
             this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(142, 19);
+            this.btnAdmin.Size = new System.Drawing.Size(189, 23);
             this.btnAdmin.TabIndex = 1;
             this.btnAdmin.Text = "Crear Administrativo";
             this.btnAdmin.UseVisualStyleBackColor = true;
@@ -59,23 +57,20 @@
             // 
             this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.Location = new System.Drawing.Point(9, 33);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 41);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(468, 330);
+            this.richTextBox1.Size = new System.Drawing.Size(623, 405);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // FrmGestionEmpleados
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(485, 372);
+            this.ClientSize = new System.Drawing.Size(647, 458);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.btnAdmin);
             this.Controls.Add(this.btnDoc);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmGestionEmpleados";
             this.Text = "FrmGestionEmpleados";
             this.ResumeLayout(false);

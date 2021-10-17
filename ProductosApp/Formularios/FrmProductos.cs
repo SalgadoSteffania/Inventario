@@ -1,5 +1,4 @@
 ﻿using AppCore.Interfaces;
-using Domain.Entities;
 using Domain.Enums;
 using Infraestructure.Productos;
 using System;
@@ -23,6 +22,15 @@ namespace ProductosApp.Formularios
             InitializeComponent();
         }
 
+        private void FrmProductos_Load(object sender, EventArgs e)
+        {
+            cmbMeasureUnit.Items.AddRange(Enum.GetValues(typeof(UnidadMedida))
+                                              .Cast<object>()
+                                              .ToArray()
+                                          );
+
+        }
+
         private void BtnNew_Click(object sender, EventArgs e)
         {
             FrmProducto frmProducto = new FrmProducto();
@@ -32,82 +40,19 @@ namespace ProductosApp.Formularios
             rtbProductView.Text = productoService.GetProductosAsJson();
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
+        private void CmbFinderType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.Close();
-        }
-
-        private void btnCalculate_Click(object sender, EventArgs e)
-        {
-            if(cmbFinderType.SelectedIndex == 0)
+            switch (cmbFinderType.SelectedIndex)
             {
-
-                Producto Tempo = productoService.AsignarValoresTotalPONDERADO();
-                rtbProductView.Text = " ";
-
-                if(Tempo== null)
-                {
-                    rtbProductView.Text = "No se encuentra ningun elemento ";
-                }
-                else
-                {
-                    rtbProductView.Text = $"Valor :{Tempo.AsignarValoresTotalPONDERADO},{Tempo.AsignarValoresUnidadPONDERADO},{Tempo.TotalInventarioPONDERADO}";
-
-                }
-
+                case 0:
+                    txtFinder.Visible = true;
+                    cmbMeasureUnit.Visible = false;
+                    break;
+                case 3:
+                    cmbMeasureUnit.Visible = true;
+                    txtFinder.Visible = false;
+                    break;                
             }
-            if (cmbFinderType.SelectedIndex == 1)
-            {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            }
-            if (cmbFinderType.SelectedIndex == 2)
-            {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            }
-            if (cmbFinderType.SelectedIndex == 3)
-            {
-
-
-
-
-
-
-
-
-
-
-
-            }
-
         }
     }
 }

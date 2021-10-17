@@ -59,10 +59,5 @@ namespace ProductosApp.Formularios
                 richTextBox1.AppendText($"Salario neto: {SalaryCalcultorFactory.CreateInstance(e).CalculateSalary(e)} \n");
             }
         }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
