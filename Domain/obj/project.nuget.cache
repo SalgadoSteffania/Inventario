@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lP1laMuv/V1dIjsWEK53YBx473PNa26QsW1oiMEYoxK8JVsinCAY5OjdFOtJCbhcgf18TdleucrHx27S/0cH6g==",
+  "dgSpecHash": "Wv5uSppDuaUsSGzB3mV57AQBOapKnPYej48ObiwOiS1a8mHmZb14yLRWnjn443Rc1TLlwiR5nZwjz0FgbvW2lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\STEFFANIA SALGADO\\Downloads\\ProductosApp-1m1\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\STEFFANIA SALGADO\\Downloads\\ProductosApp-1m1\\ProductosApp-1m1\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\STEFFANIA SALGADO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\STEFFANIA SALGADO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

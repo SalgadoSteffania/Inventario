@@ -21,40 +21,6 @@ namespace Domain.Interfaces
         Producto[] GetProductosOrderByPrecio();
 
         int GetLastProductoId();
-
-
-        decimal AsignarValoresUnidadPONDERADO();
-        decimal AsignarValoresTotalPONDERADO();
-        decimal TotalInventarioPONDERADO();
-
-
-        decimal AsignarValoresUnidadPROMSIMPLE();
-        decimal AsignarValoresTotalPROMSIMPLE();
-        decimal TotalInventarioPROMSIMPLE();
-
-        decimal AsignarValoresUnidadPEPS();
-        decimal AsignarValoresTotalPEPS();
-        decimal TotalInventarioPEPS();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
     }
 }

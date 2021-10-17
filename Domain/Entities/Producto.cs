@@ -15,25 +15,7 @@ namespace Domain.Entities
         public DateTime FechaVencimiento { get; set; }
         public UnidadMedida UnidadMedida { get; set; }
 
-
-        public decimal AsignarValoresTotalPONDERADO { get; set; }
-        public decimal AsignarValoresUnidadPONDERADO { get; set; }
-        public decimal TotalInventarioPONDERADO { get; set; }
-
-        public decimal AsignarValoresUnidadPROMSIMPLE { get;set;}
-            public decimal AsignarValoresTotalPROMSIMPLE { get;set;}
-        public decimal TotalInventarioPROMSIMPLE { get; set; }
-
-
-
-             public decimal AsignarValoresUnidadPEPS { get;set;}
-            public decimal AsignarValoresTotalPEPS { get;set;}
-        public decimal TotalInventarioPEPS { get; set; }
-
-
-
-
-public class ProductoOrderByPrecio : IComparer<Producto>
+        public class ProductoOrderByPrecio : IComparer<Producto>
         {
             public int Compare(Producto x, Producto y)
             {
