@@ -1646,10 +1646,10 @@
             </summary>
         </member>
         <member name="M:Autofac.Core.Activators.ProvidedInstance.ProvidedInstanceActivator.Dispose(System.Boolean)">
-            <inheritdoc />
-        </member>
-        <member name="M:Autofac.Core.Activators.ProvidedInstance.ProvidedInstanceActivator.DisposeAsync(System.Boolean)">
-            <inheritdoc />
+            <summary>
+            Releases unmanaged and - optionally - managed resources.
+            </summary>
+            <param name="disposing"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
         </member>
         <member name="T:Autofac.Core.Activators.ProvidedInstance.ProvidedInstanceActivatorResources">
             <summary>
@@ -1964,7 +1964,7 @@
         </member>
         <member name="P:Autofac.Core.Activators.Reflection.MatchingSignatureConstructorSelectorResources.RequiredConstructorNotAvailable">
             <summary>
-              Looks up a localized string similar to The required constructor on type &apos;{0}&apos; with signature &apos;{1}&apos; is unavailable..
+              Looks up a localized string similar to The required constructor on type &apos;{0}&apos;  with signature &apos;{1}&apos; is unavailable..
             </summary>
         </member>
         <member name="P:Autofac.Core.Activators.Reflection.MatchingSignatureConstructorSelectorResources.TooManyConstructorsMatch">
@@ -2513,7 +2513,7 @@
         </member>
         <member name="P:Autofac.Core.DisposerResources.TypeOnlyImplementsIAsyncDisposable">
             <summary>
-              Looks up a localized string similar to AUTOFAC: A synchronous Dispose has been attempted, but the tracked object of type &apos;{0}&apos; only implements IAsyncDisposable. This will result in an efficient blocking dispose. Consider either implementing IDisposable on &apos;{0}&apos; or disposing of the scope/container with DisposeAsync..
+              Looks up a localized string similar to A synchronous Dispose has been attempted, but the tracked object of type &apos;{0}&apos; only implements IAsyncDisposable..
             </summary>
         </member>
         <member name="T:Autofac.Core.IActivatedEventArgs`1">
@@ -3741,10 +3741,10 @@
             <returns>A description of the component.</returns>
         </member>
         <member name="M:Autofac.Core.Registration.ComponentRegistration.Dispose(System.Boolean)">
-            <inheritdoc />
-        </member>
-        <member name="M:Autofac.Core.Registration.ComponentRegistration.DisposeAsync(System.Boolean)">
-            <inheritdoc />
+            <summary>
+            Releases unmanaged and - optionally - managed resources.
+            </summary>
+            <param name="disposing"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
         </member>
         <member name="T:Autofac.Core.Registration.ComponentRegistrationExtensions">
             <summary>
@@ -3807,9 +3807,6 @@
             <inheritdoc/>
         </member>
         <member name="M:Autofac.Core.Registration.ComponentRegistrationLifetimeDecorator.Dispose(System.Boolean)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Autofac.Core.Registration.ComponentRegistrationLifetimeDecorator.DisposeAsync(System.Boolean)">
             <inheritdoc/>
         </member>
         <member name="T:Autofac.Core.Registration.ComponentRegistrationResources">
@@ -3932,10 +3929,10 @@
             <inheritdoc/>
         </member>
         <member name="M:Autofac.Core.Registration.ComponentRegistry.Dispose(System.Boolean)">
-            <inheritdoc />
-        </member>
-        <member name="M:Autofac.Core.Registration.ComponentRegistry.DisposeAsync(System.Boolean)">
-            <inheritdoc />
+            <summary>
+            Releases unmanaged and - optionally - managed resources.
+            </summary>
+            <param name="disposing"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
         </member>
         <member name="T:Autofac.Core.Registration.ComponentRegistryBuilder">
             <summary>
@@ -3955,10 +3952,10 @@
             <param name="properties">The properties used during component registration.</param>
         </member>
         <member name="M:Autofac.Core.Registration.ComponentRegistryBuilder.Dispose(System.Boolean)">
-            <inheritdoc />
-        </member>
-        <member name="M:Autofac.Core.Registration.ComponentRegistryBuilder.DisposeAsync(System.Boolean)">
-            <inheritdoc />
+            <summary>
+            Releases unmanaged and - optionally - managed resources.
+            </summary>
+            <param name="disposing"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
         </member>
         <member name="P:Autofac.Core.Registration.ComponentRegistryBuilder.Properties">
             <summary>
@@ -4098,10 +4095,10 @@
             <inheritdoc/>
         </member>
         <member name="M:Autofac.Core.Registration.DefaultRegisteredServicesTracker.Dispose(System.Boolean)">
-            <inheritdoc />
-        </member>
-        <member name="M:Autofac.Core.Registration.DefaultRegisteredServicesTracker.DisposeAsync(System.Boolean)">
-            <inheritdoc />
+            <summary>
+            Releases unmanaged and - optionally - managed resources.
+            </summary>
+            <param name="disposing"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
         </member>
         <member name="T:Autofac.Core.Registration.ExternalComponentRegistration">
             <summary>
@@ -4236,11 +4233,6 @@
         <member name="T:Autofac.Core.Registration.IModuleRegistrar">
             <summary>
             Interface providing fluent syntax for chaining module registrations.
-            </summary>
-        </member>
-        <member name="P:Autofac.Core.Registration.IModuleRegistrar.RegistrarData">
-            <summary>
-            Gets the registrar data.
             </summary>
         </member>
         <member name="M:Autofac.Core.Registration.IModuleRegistrar.RegisterModule(Autofac.Core.IModule)">
@@ -4389,6 +4381,11 @@
             in a fluent format.
             </summary>
         </member>
+        <member name="F:Autofac.Core.Registration.ModuleRegistrar._builder">
+            <summary>
+            The <see cref="T:Autofac.ContainerBuilder"/> into which registrations will be made.
+            </summary>
+        </member>
         <member name="M:Autofac.Core.Registration.ModuleRegistrar.#ctor(Autofac.ContainerBuilder)">
             <summary>
             Initializes a new instance of the <see cref="T:Autofac.Core.Registration.ModuleRegistrar"/> class.
@@ -4399,9 +4396,6 @@
             <exception cref="T:System.ArgumentNullException">
             Thrown if <paramref name="builder" /> is <see langword="null" />.
             </exception>
-        </member>
-        <member name="P:Autofac.Core.Registration.ModuleRegistrar.RegistrarData">
-            <inheritdoc />
         </member>
         <member name="M:Autofac.Core.Registration.ModuleRegistrar.RegisterModule(Autofac.Core.IModule)">
             <summary>
@@ -4415,22 +4409,6 @@
             <exception cref="T:System.ArgumentNullException">
             Thrown if <paramref name="module" /> is <see langword="null" />.
             </exception>
-        </member>
-        <member name="T:Autofac.Core.Registration.ModuleRegistrarData">
-            <summary>
-            Data used by <see cref="T:Autofac.Core.Registration.IModuleRegistrar"/> to support customisations to the module registration process.
-            </summary>
-        </member>
-        <member name="M:Autofac.Core.Registration.ModuleRegistrarData.#ctor(Autofac.Builder.DeferredCallback)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Autofac.Core.Registration.ModuleRegistrarData"/> class.
-            </summary>
-            <param name="callback">The callback for the registrar.</param>
-        </member>
-        <member name="P:Autofac.Core.Registration.ModuleRegistrarData.Callback">
-            <summary>
-            Gets the callback invoked when the collection of modules attached to this registrar are registered.
-            </summary>
         </member>
         <member name="T:Autofac.Core.Registration.RegistrationOptions">
             <summary>
@@ -8989,15 +8967,10 @@
         </member>
         <member name="T:Autofac.ILifetimeScope">
              <summary>
-             <para>
              An <see cref="T:Autofac.ILifetimeScope"/> tracks the instantiation of component instances.
              It defines a boundary in which instances are shared and configured.
-             </para>
-             <para>
-             Disposing an <see cref="T:Autofac.ILifetimeScope"/> will dispose any components that were
-             newly created when resolving from it, provided those components were not registered as
-             <see cref="M:Autofac.Builder.IRegistrationBuilder`3.ExternallyOwned"/>.
-             </para>
+             Disposing an <see cref="T:Autofac.ILifetimeScope"/> will dispose the components that were
+             resolved through it.
              </summary>
              <example>
              <code>
@@ -9016,21 +8989,14 @@
              </code>
              </example>
              <remarks>
-             <para>
              All long-running applications should resolve components via an
              <see cref="T:Autofac.ILifetimeScope"/>. Choosing the duration of the lifetime is application-
-             specific.
-             </para>
-             <para>
-             The standard Autofac integrations are already configured
-             to create and dispose <see cref="T:Autofac.ILifetimeScope"/>s as appropriate. For example, the
-             integration with ASP.NET Core (via the .NET DI library) will create and dispose
-             one <see cref="T:Autofac.ILifetimeScope"/> per HTTP request.
-             </para>
-             <para>
+             specific. The standard Autofac WCF and ASP.NET/MVC integrations are already configured
+             to create and release <see cref="T:Autofac.ILifetimeScope"/>s as appropriate. For example, the
+             ASP.NET integration will create and release an <see cref="T:Autofac.ILifetimeScope"/> per HTTP
+             request.
              Most <see cref="T:Autofac.ILifetimeScope"/> functionality is provided by extension methods
              on the inherited <see cref="T:Autofac.IComponentContext"/> interface.
-             </para>
              </remarks>
              <seealso cref="T:Autofac.IContainer"/>
              <seealso cref="T:Autofac.IComponentContext"/>
@@ -9061,30 +9027,9 @@
             will be disposed along with it.
             </summary>
             <remarks>
-            <para>
-            Any components registered in the sub-scope will only be resolvable from this new scope,
-            or additional child scopes subsequently resolved from it.
-            </para>
-            <para>
-            Components registered in the sub-scope that provide services already registered
-            in a parent <see cref="T:Autofac.ILifetimeScope"/> (or root <see cref="T:Autofac.IContainer"/>) will
-            override that same service registration when resolving instances.
-            </para>
-            <para>
-            If you resolve an <see cref="T:System.Collections.Generic.IEnumerable`1"/> in the new scope, the returned set of components will
-            include both components registered in the new sub-scope, plus all registered components all the way back
-            up to the root <see cref="T:Autofac.IContainer"/>.
-            </para>
-            <para>
-            Resolving a service from this scope that was only defined in a parent <see cref="T:Autofac.ILifetimeScope"/> (or root <see cref="T:Autofac.IContainer"/>)
-            will result in a component 'owned' by the scope it was registered in (rather than this new scope).
-            For example, if you registered a <c>SingleInstance()</c> component in the root container, but resolved it in the new sub-scope, the instance you get will
-            be attached to the root container, not your scope, so the same instance will be shared by all other <see cref="T:Autofac.ILifetimeScope"/> instances.
-            </para>
-            <para>
-            <c>SingleInstance()</c> components registered in this scope will be held as long as this scope exists, but will be discarded
-            when the scope is disposed.
-            </para>
+            The components registered in the sub-scope will be treated as though they were
+            registered in the root scope, i.e., SingleInstance() components will live as long
+            as the root scope.
             </remarks>
             <param name="configurationAction">Action on a <see cref="T:Autofac.ContainerBuilder"/>
             that adds component registrations visible only in the new scope.</param>
@@ -9097,30 +9042,9 @@
             will be disposed along with it.
             </summary>
             <remarks>
-            <para>
-            Any components registered in the sub-scope will only be resolvable from this new scope,
-            or additional child scopes subsequently resolved from it.
-            </para>
-            <para>
-            Components registered in the sub-scope that provide services already registered
-            in a parent <see cref="T:Autofac.ILifetimeScope"/> (or root <see cref="T:Autofac.IContainer"/>) will
-            override that same service registration when resolving instances.
-            </para>
-            <para>
-            If you resolve an <see cref="T:System.Collections.Generic.IEnumerable`1"/> in the new scope, the returned set of components will
-            include both components registered in the new sub-scope, plus all registered components all the way back
-            up to the root <see cref="T:Autofac.IContainer"/>.
-            </para>
-            <para>
-            Resolving a service from this scope that was only defined in a parent <see cref="T:Autofac.ILifetimeScope"/> (or root <see cref="T:Autofac.IContainer"/>)
-            will result in a component 'owned' by the scope it was registered in (rather than this new scope).
-            For example, if you registered a <c>SingleInstance()</c> component in the root container, but resolved it in the new sub-scope, the instance you get will
-            be attached to the root container, not your scope, so the same instance will be shared by all other <see cref="T:Autofac.ILifetimeScope"/> instances.
-            </para>
-            <para>
-            <c>SingleInstance()</c> components registered in this scope will be held as long as this scope exists, but will be discarded
-            when the scope is disposed.
-            </para>
+            The components registered in the sub-scope will be treated as though they were
+            registered in the root scope, i.e., SingleInstance() components will live as long
+            as the root scope.
             </remarks>
             <param name="tag">The tag applied to the <see cref="T:Autofac.ILifetimeScope"/>.</param>
             <param name="configurationAction">Action on a <see cref="T:Autofac.ContainerBuilder"/>
@@ -9166,17 +9090,10 @@
             an <c>OnActivated()</c> event handler instead.
             </summary>
             <remarks>
-            <para>
             For equivalent "Stop" functionality, implement <see cref="T:System.IDisposable"/>. Autofac
             will always dispose a component before any of its dependencies (except in the presence
             of circular dependencies, in which case the components in the cycle are disposed in
             reverse-construction order.)
-            </para>
-            <para>
-            Components that implement <see cref="T:Autofac.IStartable"/> and configured with a InstancePerLifetimeScope()
-            lifetime are still only started *once*, in the root <see cref="T:Autofac.IContainer"/> or <see cref="T:Autofac.ILifetimeScope"/>
-            where the component was registered.
-            </para>
             </remarks>
         </member>
         <member name="M:Autofac.IStartable.Start">
@@ -9190,7 +9107,7 @@
              to a container (<see cref="M:Autofac.Module.Load(Autofac.ContainerBuilder)"/>) or attach cross-cutting functionality
              to other components (<see cref="M:Autofac.Module.AttachToComponentRegistration(Autofac.Core.Registration.IComponentRegistryBuilder,Autofac.Core.IComponentRegistration)"/>.
              Modules are given special support in the XML configuration feature - see
-             https://autofac.readthedocs.io/en/latest/configuration/modules.html.
+             http://code.google.com/p/autofac/wiki/StructuringWithModules.
              </summary>
              <remarks>Provides a user-friendly way to implement <see cref="T:Autofac.Core.IModule"/>
              via <see cref="T:Autofac.ContainerBuilder"/>.</remarks>
@@ -9205,7 +9122,7 @@
                  {
                      moduleBuilder.RegisterGeneric(typeof(MyRepository&lt;&gt;))
                          .As(typeof(IRepository&lt;&gt;))
-                         .InstancePerLifetimeScope();
+                         .InstancePerMatchingLifetimeScope(WebLifetime.Request);
             
                      moduleBuilder.Register(c =&gt; new MyDbConnection(ConnectionString))
                          .As&lt;IDbConnection&gt;()
@@ -9394,36 +9311,6 @@
             <exception cref="T:System.ArgumentNullException">
             Thrown if <paramref name="builder"/> or <paramref name="module"/> is <see langword="null"/>.
             </exception>
-            <returns>
-            The <see cref="T:Autofac.Core.Registration.IModuleRegistrar"/> to allow
-            additional chained module registrations.
-            </returns>
-        </member>
-        <member name="M:Autofac.ModuleRegistrationExtensions.OnlyIf(Autofac.Core.Registration.IModuleRegistrar,System.Predicate{Autofac.Core.Registration.IComponentRegistryBuilder})">
-            <summary>
-            Attaches a predicate to evaluate prior to executing the registration of the module.
-            The predicate will run at registration time, not runtime, to determine
-            whether the module registration should execute.
-            </summary>
-            <param name="registrar">The module registrar that will make the registrations into the container.</param>
-            <param name="predicate">The predicate to run to determine if the registration should be made.</param>
-            <returns>
-            The <see cref="T:Autofac.Core.Registration.IModuleRegistrar"/> to allow
-            additional chained module registrations.
-            </returns>
-        </member>
-        <member name="M:Autofac.ModuleRegistrationExtensions.IfNotRegistered(Autofac.Core.Registration.IModuleRegistrar,System.Type)">
-            <summary>
-            Attaches a predicate such that a module registration will only be made if
-            a specific service type is not already registered.
-            The predicate will run at registration time, not runtime, to determine
-            whether the registration should execute.
-            </summary>
-            <param name="registrar">The module registrar that will make the registrations into the container.</param>
-            <param name="serviceType">
-            The service type to check for to determine if the registration should be made.
-            Note this is the *service type* - the <c>As&lt;T&gt;</c> part.
-            </param>
             <returns>
             The <see cref="T:Autofac.Core.Registration.IModuleRegistrar"/> to allow
             additional chained module registrations.
@@ -10821,7 +10708,7 @@
         </member>
         <member name="P:Autofac.RegistrationExtensionsResources.InstanceRegistrationsAreSingleInstanceOnly">
             <summary>
-              Looks up a localized string similar to The instance registration &apos;{0}&apos; can support SingleInstance() sharing only..
+              Looks up a localized string similar to The instance  registration &apos;{0}&apos; can support SingleInstance() sharing only..
             </summary>
         </member>
         <member name="P:Autofac.RegistrationExtensionsResources.MetadataAttributeNotFound">
@@ -11509,19 +11396,6 @@
             </returns>
             <exception cref="T:Autofac.Core.DependencyResolutionException"/>
         </member>
-        <member name="M:Autofac.ResolutionExtensions.TryResolveKeyed``1(Autofac.IComponentContext,System.Object,``0@)">
-            <summary>
-            Try to retrieve a service from the context.
-            </summary>
-            <typeparam name="T">The service type to resolve.</typeparam>
-            <param name="context">The context from which to resolve the service.</param>
-            <param name="serviceKey">The key of the service to resolve.</param>
-            <param name="instance">The resulting component instance providing the service, or null.</param>
-            <returns>
-            True if a component providing the service is available.
-            </returns>
-            <exception cref="T:Autofac.Core.DependencyResolutionException"/>
-        </member>
         <member name="M:Autofac.ResolutionExtensions.TryResolveKeyed(Autofac.IComponentContext,System.Object,System.Type,System.Object@)">
             <summary>
             Try to retrieve a service from the context.
@@ -11529,19 +11403,6 @@
             <param name="context">The context from which to resolve the service.</param>
             <param name="serviceKey">The key of the service to resolve.</param>
             <param name="serviceType">The type of the service to resolve.</param>
-            <param name="instance">The resulting component instance providing the service, or null.</param>
-            <returns>
-            True if a component providing the service is available.
-            </returns>
-            <exception cref="T:Autofac.Core.DependencyResolutionException"/>
-        </member>
-        <member name="M:Autofac.ResolutionExtensions.TryResolveNamed``1(Autofac.IComponentContext,System.String,``0@)">
-            <summary>
-            Try to retrieve a service from the context.
-            </summary>
-            <typeparam name="T">The service type to resolve.</typeparam>
-            <param name="context">The context from which to resolve the service.</param>
-            <param name="serviceName">The name of the service to resolve.</param>
             <param name="instance">The resulting component instance providing the service, or null.</param>
             <returns>
             True if a component providing the service is available.

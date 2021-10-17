@@ -1,5 +1,4 @@
-﻿using AppCore.Interfaces;
-using Domain.Entities;
+﻿using Domain.Entities;
 using Domain.Enums;
 using Infraestructure.Productos;
 using System;
@@ -12,20 +11,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProductosApp.Formularios
-{    
+namespace ProductosApp.Forms
+{
     public partial class FrmProducto : Form
     {
-        public IProductoService PModel { get; set; }
+        public ProductoModel PModel { get; set; }
         public FrmProducto()
         {
-            this.CenterToScreen();
             InitializeComponent();
-        }
-
-        private void FrmProducto_Load(object sender, EventArgs e)
-        {
-        
         }
 
         private void BtnOk_Click(object sender, EventArgs e)
@@ -33,21 +26,24 @@ namespace ProductosApp.Formularios
             Producto p = new Producto()
             {
                 Id = PModel.GetLastProductoId() + 1,
-                Nombre = txtNombre.Text,
+                Nombre = txtName.Text,
                 Descripcion = txtDesc.Text,
                 Existencia = (int)nudExist.Value,
                 Precio = nudPrice.Value,
                 FechaVencimiento = dtpCaducity.Value,
+                UnidadMedida = (UnidadMedida)cmbMeasureUnit.SelectedIndex
             };
 
-            PModel.Create(p);
+            PModel.Add(p);
 
             Dispose();
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void FrmProducto_Load(object sender, EventArgs e)
         {
-            this.Close();
+            cmbMeasureUnit.Items.AddRange(Enum.GetValues(typeof(UnidadMedida))
+                                              .Cast<object>()
+                                              .ToArray());
         }
     }
 }
