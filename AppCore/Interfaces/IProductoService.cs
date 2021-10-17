@@ -21,5 +21,6 @@ namespace AppCore.Interfaces
         Producto[] GetProductosOrderByPrecio();
 
         int GetLastProductoId();
+        Producto AsignarValoresTotalPONDERADO();
     }
 }
